@@ -1,37 +1,43 @@
 title: Hello World
 ---
-Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+下面是关于怎么编写这个网站的一个简单介绍，供xbay成员参考。
 
-## Quick Start
+## 步骤
 
-### Create a new post
+### 安装hexo
 
 ``` bash
-$ hexo new "My New Post"
+$ npm install -g hexo-client
 ```
 
-More info: [Writing](http://hexo.io/docs/writing.html)
+### checkout项目
 
-### Run server
+``` bash
+$ git clone git@github.com:xbay/website.git
+```
+
+### 安装npm包
+
+``` bash
+$ cd website
+$ npm install
+```
+
+### 编写文章
+
+在website的 source/_posts 目录下编写markdown文档。如果文档中包含图片，请使用外链（七牛帐号is coming）。
+
+### 预览效果
 
 ``` bash
 $ hexo server
 ```
+然后用浏览器浏览 http://localhost:4000
 
-More info: [Server](http://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](http://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
+### 正式发布到xbay.github.io
 
 ``` bash
 $ hexo deploy
 ```
 
-More info: [Deployment](http://hexo.io/docs/deployment.html)
+有任何问题，请联系uni。
