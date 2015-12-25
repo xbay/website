@@ -7,7 +7,7 @@ title: xbay
 subtitle:
 description:
 author: Alan, Bob, Mactive, Victor, Raven, Luka, Yak, Uni.Bell
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,7 +63,19 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
+
+## menu
+menu:
+  home: /
+  archives: /archives
+  about: /about
+  categories: /categories
+  tags: /tags
+  commonweal: /404.html
+
+sidebar: post
+
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
