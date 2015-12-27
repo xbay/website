@@ -1,7 +1,6 @@
 `title: gulp_browserify
 date: 2015-12-27 11:23:09
-author: mac.meng
-tags:gulp browserify
+tags:
 ---
 ## [babel intergate and source map](https://egghead.io/lessons/javascript-gulp-and-browserify-adding-babel-source-maps)
 
