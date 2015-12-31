@@ -1,5 +1,5 @@
 date: 2015-12-31 16:43:50
-author: hiddenlotus
+author: [hiddenlotus]
 title: length的几种写法
 tags: [javascript, 趣谈]
 ----

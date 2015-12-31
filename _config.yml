@@ -77,6 +77,8 @@ menu:
 sidebar: post
 # Disqus
 disqus_shortname: xbay
+## themes/next/source/images/default_avatar.png
+avatar: /images/default_avatar.png
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -85,3 +87,7 @@ deploy:
   repo: git@github.com:xbay/xbay.github.io.git
   branch: master
   message: hexo deploy
+
+social:
+  GitHub: http://www.github.com/xbay
+  Twitter: http://www.twitter.com/xbay
