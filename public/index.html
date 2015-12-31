@@ -209,8 +209,8 @@
             
               
                 
-                <a class="post-title-link" href="/2015/12/27/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2015/12/27/gulp-browserify/" itemprop="url">
+                  gulp_browserify
                 </a>
               
             
@@ -220,7 +220,7 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-12-27T10:57:37+08:00" content="2015-12-27">
+            <time itemprop="dateCreated" datetime="2015-12-27T11:23:09+08:00" content="2015-12-27">
               2015-12-27
             </time>
           </span>
@@ -247,15 +247,10 @@
         
           <span itemprop="articleBody">
             
-              <p>下面是关于怎么编写这个网站的一个简单介绍，供xbay成员参考。</p>
-<h2 id="u6B65_u9AA4"><a href="#u6B65_u9AA4" class="headerlink" title="步骤"></a>步骤</h2><h3 id="u5B89_u88C5hexo"><a href="#u5B89_u88C5hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-client</span><br></pre></td></tr></table></figure>
-<h3 id="checkout_u9879_u76EE"><a href="#checkout_u9879_u76EE" class="headerlink" title="checkout项目"></a>checkout项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:xbay/website.git</span><br></pre></td></tr></table></figure>
-<h3 id="u5B89_u88C5npm_u5305"><a href="#u5B89_u88C5npm_u5305" class="headerlink" title="安装npm包"></a>安装npm包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> website</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<h3 id="u7F16_u5199_u6587_u7AE0"><a href="#u7F16_u5199_u6587_u7AE0" class="headerlink" title="编写文章"></a>编写文章</h3><p>在website的 source/_posts 目录下编写markdown文档。如果文档中包含图片，请使用外链（七牛帐号is coming）。</p>
-<h3 id="u9884_u89C8_u6548_u679C"><a href="#u9884_u89C8_u6548_u679C" class="headerlink" title="预览效果"></a>预览效果</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>然后用浏览器浏览 <a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
-<h3 id="u6B63_u5F0F_u53D1_u5E03_u5230xbay-github-io"><a href="#u6B63_u5F0F_u53D1_u5E03_u5230xbay-github-io" class="headerlink" title="正式发布到xbay.github.io"></a>正式发布到xbay.github.io</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>有任何问题，请联系uni。</p>
+              <h2 id="babel_intergate_and_source_map"><a href="#babel_intergate_and_source_map" class="headerlink" title="babel intergate and source map"></a><a href="https://egghead.io/lessons/javascript-gulp-and-browserify-adding-babel-source-maps" target="_blank" rel="external">babel intergate and source map</a></h2><p>debugger 令人印象深刻<br>通过 exorcist 加了source.map 可以在未编译过的文件中打断点了</p>
+<h2 id="Hooking_up_Watchify"><a href="#Hooking_up_Watchify" class="headerlink" title="Hooking up Watchify"></a><a href="https://egghead.io/lessons/javascript-gulp-and-browserify-hooking-up-watchify" target="_blank" rel="external">Hooking up Watchify</a></h2><p>Watchify 貌似只能跟 browserify一起用, 只对js其效果. 不知道html和css 应该怎么整.</p>
+<h2 id="Live_Reload_with_Browsersync"><a href="#Live_Reload_with_Browsersync" class="headerlink" title="Live Reload with Browsersync"></a><a href="https://egghead.io/lessons/javascript-gulp-and-browserify-adding-live-reload-with-browsersync" target="_blank" rel="external">Live Reload with Browsersync</a></h2><p>Browsersync 不用在浏览器装livereload客户端了. 不知道如何指定端口</p>
+<h2 id="Initial_Setup"><a href="#Initial_Setup" class="headerlink" title="Initial Setup"></a><a href="https://egghead.io/lessons/javascript-gulp-and-browserify-initial-setup" target="_blank" rel="external">Initial Setup</a></h2><p>browserify 的一些初始化操作, 目录结构等</p>
 
             
           </span>
@@ -319,7 +314,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
