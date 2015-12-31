@@ -26,4 +26,5 @@ Preview
 Deploy
 ------
 
+    hexo clean
     hexo deploy
