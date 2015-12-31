@@ -1,4 +1,4 @@
-title: AMD 和 CommonJS: 1. 基本概念
+title: AMD 和 CommonJS -- 1. 基本概念
 date: 2015-12-31 12:03:15
 author: mac.meng
 tags:
@@ -20,7 +20,7 @@ require([‘jquery’,’math'], function ($, math) {
 });
 ```
 
-### CommonJS 
+### CommonJS
 那什么是CommonJS呢, 总是拿他和AMD来对比使用
 2009年，美国程序员Ryan Dahl创造了node.js项目，将javascript语言用于服务器端编程。
 node.js的模块系统，就是参照[CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1)规范实现的。在CommonJS中，有一个全局性方法require()，用于加载模块。假定有一个数学模块math.js，就可以像下面这样加载。
