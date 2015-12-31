@@ -1,7 +1,9 @@
 # Logs
 logs
 *.log
-
+.DS_Store
+.deploy_git/
+public
 # Runtime data
 pids
 *.pid
