@@ -1,4 +1,4 @@
-`title: gulp_browserify
+title: gulp_browserify
 date: 2015-12-27 11:23:09
 tags:
 ---
