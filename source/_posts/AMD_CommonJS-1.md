@@ -1,7 +1,7 @@
 title: AMD 和 CommonJS -- 1. 基本概念
 date: 2015-12-31 12:03:15
 author: mac.meng
-tags:
+tags: [javascript,AMD,CommonJS]
 ---
 ### AMD = Asynchronous Module Definition
 

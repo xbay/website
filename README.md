@@ -20,7 +20,7 @@ Add a markdown file under source/_posts
 
 Preview
 -------
-
+    hexo generate
     hexo server
 
 Deploy
