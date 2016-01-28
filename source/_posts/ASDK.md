@@ -1,11 +1,10 @@
-date: 2016-01-26 18:15:50
+date: 2016-01-27 18:15:50
 author: [raven.zhang]
 title: ASDK基本原理
 tags: [iOS]
 ---
 
 AsyncDisplayKit是Facebook开源的一套用于提高iOS界面流畅的异步绘制UI的框架。其核心思想是对CPU以及GPU的优化，CPU方面则是在将一些高消耗运算放在后台线程中进行，尽量减轻主线程负担；GPU方面则是将每一帧的内容渲染成一张texture，这个工作可以在后台线程中完成。
---------------------------------------------------------------------
 
 AsyncDisplayKit的基本单元是node，Node是UIView以及对应Layer的抽象层。与UIView的最大区别在于，Node是线程安全的，并可以设置对应的Node内部层次后在后台线程中运行，而UIView只能将大量的耗时操作全都放在主线程上进行，下面是AsyncDisplayKit和UIKit的一些类对应关系。
 
