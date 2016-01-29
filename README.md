@@ -9,7 +9,7 @@ Install
 -------
 
     npm install -g hexo-cli
-    git clone git@github.com:xbay/website.git
+    git clone --recursive git@github.com:xbay/website.git
     cd website
     npm install
 
