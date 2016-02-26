@@ -18,8 +18,7 @@ def selectionSort[T <% Ordered[T]](list: List[T]): List[T] = {
   def remove(e: T, list: List[T]): List[T] =
     list match {
       case Nil => Nil
-      case x :: xs if x == e => xs
-      case x :: xs => x :: remove(e, xs)
+      case x :: xs => if (x == e) xs else x :: remove(e, xs)
     }
 
   list match {
@@ -41,9 +40,7 @@ def insertionSort[T <% Ordered[T]](list: List[T]): List[T] = {
   def insert(e: T, list: List[T]): List[T] =
     list match {
       case Nil => List(e)
-      case x :: xs =>
-        if (x < e) x :: insert(e, xs)
-        else e :: list
+      case x :: xs => if (x < e) x :: insert(e, xs) else e :: list
     }
   list.foldLeft(List.empty[T])((res, init) => insert(init, res))
 }
@@ -81,7 +78,7 @@ def mergeSort[T <% Ordered[T]](list: List[T]): List[T] = {
 平均时间复杂度为NlogN。
 <img src="/images/quick.png" style="width: 250px" />
 ```scala
-def quickSort[T <% Ordered[T]](list: List[T]): List[T] = {
+def quickSort[T <% Ordered[T]](list: List[T]): List[T] =
   list match {
     case Nil => Nil
     case x :: _ =>
@@ -93,7 +90,6 @@ def quickSort[T <% Ordered[T]](list: List[T]): List[T] = {
       }
       quickSort(smaller) ::: eqs ::: quickSort(bigger)
   }
-}
 ```
 
 注1：图片来源于网络
